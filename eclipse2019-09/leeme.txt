@@ -1,0 +1,29 @@
+win_install.cmd
+	(clic botón derecho)
+	«Ejecutar como Administrador»
+	
+Descargas:
+==========
+
+OpenJDK11U-jdk_x64_windows_openj9_11.0.4_11_openj9-0.15.1.zip
+	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9#x64_win
+	https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.4%2B11_openj9-0.15.1/OpenJDK11U-jdk_x64_windows_openj9_11.0.4_11_openj9-0.15.1.zip
+
+eclipse-java-2019-06-R-win32-x86_64.zip
+eclipse-java-2019-06-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/
+	https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-06/R/eclipse-java-2019-06-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-06/R/eclipse-java-2019-06-R-linux-gtk-x86_64.tar.gz
+
+eclipse-java-2019-09-R-win32-x86_64.zip
+eclipse-java-2019-09-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/
+	https://www.eclipse.org/downloads/packages/release/2019-09/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-09/R/eclipse-java-2019-09-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-09/R/eclipse-java-2019-09-R-linux-gtk-x86_64.tar.gz
+
+BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
+	https://www.eclipse.org/babel/downloads.php
+	https://download.eclipse.org/technology/babel/babel_language_packs/R0.17.0/2019-06/2019-06.php
+	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.17.0/2019-06/BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
