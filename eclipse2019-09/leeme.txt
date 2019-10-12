@@ -1,7 +1,7 @@
 win_install.cmd
 	(clic botón derecho)
 	«Ejecutar como Administrador»
-	
+
 Descargas:
 ==========
 
@@ -27,3 +27,6 @@ BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
 	https://www.eclipse.org/babel/downloads.php
 	https://download.eclipse.org/technology/babel/babel_language_packs/R0.17.0/2019-06/2019-06.php
 	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.17.0/2019-06/BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
+
+Oracle Java:
+	https://www.oracle.com/technetwork/java/javase/downloads/index.html
