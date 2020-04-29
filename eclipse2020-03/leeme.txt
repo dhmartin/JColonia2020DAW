@@ -1,3 +1,7 @@
+Renombrar o incluso borrar:
+	c:\java
+	c:\archivos de programa\eclipse
+
 win_install.cmd
 	(clic botón derecho)
 	«Ejecutar como Administrador»
@@ -5,28 +9,40 @@ win_install.cmd
 Descargas:
 ==========
 
-OpenJDK11U-jdk_x64_windows_openj9_11.0.4_11_openj9-0.15.1.zip
-	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9#x64_win
-	https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.4%2B11_openj9-0.15.1/OpenJDK11U-jdk_x64_windows_openj9_11.0.4_11_openj9-0.15.1.zip
+OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip
+	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9
+	https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10.1_openj9-0.20.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip
 
-eclipse-java-2019-06-R-win32-x86_64.zip
-eclipse-java-2019-06-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2020-03-R-win32-x86_64.zip
+eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-06/R/eclipse-java-2019-06-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-06/R/eclipse-java-2019-06-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2020-03/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz
 
-eclipse-java-2019-09-R-win32-x86_64.zip
-eclipse-java-2019-09-R-linux-gtk-x86_64.tar.gz
-	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2019-09/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-09/R/eclipse-java-2019-09-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-09/R/eclipse-java-2019-09-R-linux-gtk-x86_64.tar.gz
+https://build.eclipse.org/technology/babel/babel_language_packs/
+https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/2019-12.php
+	https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/BabelLanguagePack-eclipse-es_4.14.0.v20200429020001.zip
+	https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/BabelLanguagePack-mylyn-es_4.14.0.v20200429020001.zip
+	https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/BabelLanguagePack-rt.rap-es_4.14.0.v20200429020001.zip
+	https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/BabelLanguagePack-technology.egit-es_4.14.0.v20200429020001.zip
+	https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/BabelLanguagePack-technology.jgit-es_4.14.0.v20200429020001.zip
+	https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/BabelLanguagePack-webtools-es_4.14.0.v20200429020001.zip
 
-BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
+BabelLanguagePack-eclipse-es_4.14.0.v20200113020001.zip
 	https://www.eclipse.org/babel/downloads.php
-	https://download.eclipse.org/technology/babel/babel_language_packs/R0.17.0/2019-06/2019-06.php
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.17.0/2019-06/BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/R0.17.1/2019-12/2019-12.php
+	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.17.1/2019-12/BabelLanguagePack-eclipse-es_4.14.0.v20200113020001.zip
 
 Oracle Java:
 	https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Doxygen:
+	http://www.doxygen.nl/download.html
+	http://doxygen.nl/files/doxygen-1.8.18.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.8.18/doxygen-1.8.18.windows.x64.bin.zip/download
+
+Graphviz:
+	https://graphviz.gitlab.io/download/
+	https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip
+	

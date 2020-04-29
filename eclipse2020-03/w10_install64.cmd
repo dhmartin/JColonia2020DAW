@@ -1,7 +1,7 @@
-@mode con cp select=65001 > NUL
-@ECHO off
+@CHCP 65001 > NUL
+@ECHO OFF
 
-ECHO Instalación de ECLIPSE 2019-09
+ECHO Instalación de ECLIPSE 2020-03
 ECHO ==============================
 ECHO.
 
@@ -9,22 +9,39 @@ SET SRCDIR=%~dp0
 SET ICONDEST=%PUBLIC%\Desktop
 SET JAVADEST=C:\java
 
+SET VERBABEL=4.14.0.v20200429020001
+
+
 ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
-"%SRCDIR%/unzip" -qnd "%ProgramFiles%" "%SRCDIR%/BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip"
-"%SRCDIR%/unzip" -qnd "%ProgramFiles%" "%SRCDIR%/eclipse-java-2019-09-R-win32-x86_64.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-eclipse-es_%VERBABEL%.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-rt.rap-es_%VERBABEL%.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-mylyn-es_%VERBABEL%.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-technology.egit-es_%VERBABEL%.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-technology.jgit-es_%VERBABEL%.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-webtools-es_%VERBABEL%.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2020-03-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK» en %JAVADEST%:
-"%SRCDIR%/unzip" -qnd "%JAVADEST%" "%SRCDIR%/OpenJDK11U-jdk_x64_windows_openj9_11.0.4_11_openj9-0.15.1.zip"
-MOVE "%JAVADEST%/jdk-11.0.4+11" "%JAVADEST%/jdk11"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip"
+MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
+ECHO.
+
+ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
+MKDIR "%JAVADEST%\doxygen"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.8.18.windows.x64.bin.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\graphviz-2.38.zip"
+
+MOVE "%JAVADEST%\release\bin" "%JAVADEST%\graphviz"
+RMDIR /S /Q "%JAVADEST%\release"
 ECHO.
 
 IF EXIST %ICONDEST% (
 	ECHO Copiando accesos directos en %ICONDEST%:
-	COPY /Y "%SRCDIR%/eclipse.lnk" "%ICONDEST%"
-	COPY /Y "%SRCDIR%/Entorno JDK11.lnk" "%ICONDEST%"
+	COPY /Y "%SRCDIR%\eclipse.lnk" "%ICONDEST%"
+	COPY /Y "%SRCDIR%\Entorno JDK11.lnk" "%ICONDEST%"
 	ECHO Copiando scripts en %JAVADEST%:
-	COPY /Y "%SRCDIR%/ijavaW10.cmd" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\ijavaW10.cmd" "%JAVADEST%"
 	ECHO.
 )
 
