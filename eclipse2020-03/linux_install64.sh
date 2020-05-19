@@ -4,15 +4,16 @@ DEST="/opt"
 PROFILE="eclipse.sh"
 PROFILEDIR="/etc/profile.d"
 MENUFILE="/usr/share/applications/eclipse.desktop"
-LISTA="	
-	eclipse-java-2019-09-R-linux-gtk-x86_64.tar.gz
-	BabelLanguagePack-eclipse-es_4.12.0.v20190713060001.zip
+
+LISTA="
+	eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz
 	"
 
-USUARIO="`id -u`"
-PROG="`basename $0`"
- 
-if [ "$USUARIO" -eq 0 ] ; then
+USUARIO="$(id -u)"
+PROG="$(basename $0)"
+
+
+if [[ "$USUARIO" -eq 0 ]] ; then
 	for file in $LISTA; do
 		if [[ $? -eq 0 ]]; then
 			echo "Descomprimiendo $file en $DEST"
@@ -31,7 +32,7 @@ if [ "$USUARIO" -eq 0 ] ; then
 
 	echo -e "Verifique que el JRE empleado por Eclipse es" &&
 	echo -e "el JDK deseado. Edítelo y apunte URL Javadoc" &&
-	echo -e "a una replica de:" && 
+	echo -e "a una réplica de:" &&
 	echo -e "   https://docs.oracle.com/javase/8/docs/api/\n"
 
 	if [ $? -eq 0 -a -d "$PROFILEDIR" ]; then
