@@ -1,20 +1,22 @@
-@mode con cp select=65001 > NUL
-@echo off
-echo Entorno Java
-echo ============
-echo.
+@CHCP 65001 > NUL
+@ECHO OFF
 
-set PATH=c:\java\jdk11\bin;%PATH%
-set PATH=%ProgramFiles%\varios;%PATH%
+ECHO Entorno Java
+ECHO ============
+ECHO.
 
-set CLASSPATH=.\;c:\java\junit\junit.jar
+SET PATH=c:\java\jdk11\bin;%PATH%
+SET PATH=c:\java\doxygen;c:\java\graphviz;%PATH%
+SET PATH=%ProgramFiles%\varios;%PATH%
 
-set JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
+SET CLASSPATH=bin
+
+SET JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
 
 javac -version
 
-echo.
-echo JAVA_TOOL_OPTIONS=%JAVA_TOOL_OPTIONS%
-echo CLASSPATH=%CLASSPATH%
-echo PATH=%PATH%
-echo.
+ECHO.
+ECHO JAVA_TOOL_OPTIONS=%JAVA_TOOL_OPTIONS%
+ECHO CLASSPATH=%CLASSPATH%
+ECHO PATH=%PATH%
+ECHO.
