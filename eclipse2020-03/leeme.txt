@@ -2,7 +2,13 @@ Renombrar o incluso borrar:
 	c:\java
 	c:\archivos de programa\eclipse
 
-win_install.cmd
+w10_install64.cmd
+	(clic botón derecho)
+	«Ejecutar como Administrador»
+
+Para instalar o actualizar las traducciones del proyecto «Babel»
+(dejar los archivos deseados en la subcarpeta «Babel»)
+w10_install64 - babel.cmd
 	(clic botón derecho)
 	«Ejecutar como Administrador»
 
@@ -45,4 +51,9 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip
-	
+
+Git for Windows
+	https://git-scm.com/download/win
+	https://gitforwindows.org/
+	https://github.com/git-for-windows/git/releases
+	https://github.com/git-for-windows/git/releases/download/v2.27.0-rc0.windows.1/MinGit-2.27.0-rc0-64-bit.zip

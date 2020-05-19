@@ -9,16 +9,7 @@ SET SRCDIR=%~dp0
 SET ICONDEST=%PUBLIC%\Desktop
 SET JAVADEST=C:\java
 
-SET VERBABEL=4.14.0.v20200429020001
-
-
 ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-eclipse-es_%VERBABEL%.zip"
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-rt.rap-es_%VERBABEL%.zip"
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-mylyn-es_%VERBABEL%.zip"
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-technology.egit-es_%VERBABEL%.zip"
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-technology.jgit-es_%VERBABEL%.zip"
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\BabelLanguagePack-webtools-es_%VERBABEL%.zip"
 "%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2020-03-R-win32-x86_64.zip"
 ECHO.
 
