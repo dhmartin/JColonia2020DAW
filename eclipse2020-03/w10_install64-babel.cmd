@@ -9,7 +9,7 @@ SET SRCDIR=%~dp0
 SET BABELDEST=%ProgramFiles%\eclipse\dropins
 
 IF EXIST "%BABELDEST%" (
-	FOR /d %%D in ("%BABELDEST%\*") DO RMDIR /S /Q "%%D"
+	FOR /d %%D in ("%BABELDEST%\Babel*") DO RMDIR /S /Q "%%D"
 	
 	FOR %%F IN ("%SRCDIR%Babel\*.zip") DO (
 		ECHO Descomprimiendo %%~nxF…
