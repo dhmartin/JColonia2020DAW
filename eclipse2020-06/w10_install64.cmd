@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2020-03
+ECHO Instalación de ECLIPSE 2020-06
 ECHO ==============================
 ECHO.
 
@@ -10,7 +10,7 @@ SET ICONDEST=%PUBLIC%\Desktop
 SET JAVADEST=C:\java
 
 ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2020-03-R-win32-x86_64.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2020-06-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK» en %JAVADEST%:

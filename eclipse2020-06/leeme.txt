@@ -19,12 +19,12 @@ OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip
 	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9
 	https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10.1_openj9-0.20.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip
 
-eclipse-java-2020-03-R-win32-x86_64.zip
-eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2020-06-R-win32-x86_64.zip
+eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2020-03/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 
 https://build.eclipse.org/technology/babel/babel_language_packs/
 https://build.eclipse.org/technology/babel/babel_language_packs/N20200429-0200/2019-12/2019-12.php
@@ -51,6 +51,11 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip
+	
+WindowBuilder:
+	https://www.eclipse.org/windowbuilder/download.php
+	http://eclipse.org/downloads/download.php?file=/windowbuilder/latest/repository.zip
+	http://mirror.dkm.cz/eclipse/windowbuilder/latest/repository.zip
 
 Git for Windows
 	https://git-scm.com/download/win
