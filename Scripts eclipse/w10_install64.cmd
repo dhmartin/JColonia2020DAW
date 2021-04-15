@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2020-06
+ECHO Instalación de ECLIPSE 2021-03
 ECHO ==============================
 ECHO.
 
@@ -10,21 +10,22 @@ SET ICONDEST=%PUBLIC%\Desktop
 SET JAVADEST=C:\java
 
 ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2020-06-R-win32-x86_64.zip"
+"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2021-03-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_openj9_11.0.7_10_openj9-0.20.0.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_openj9_11.0.10_9_openj9-0.24.0.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
 MKDIR "%JAVADEST%\doxygen"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.8.18.windows.x64.bin.zip"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\graphviz-2.38.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.1.windows.x64.bin.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\graphviz-2.44.1-win32.zip"
 
-MOVE "%JAVADEST%\release\bin" "%JAVADEST%\graphviz"
-RMDIR /S /Q "%JAVADEST%\release"
+MOVE "%JAVADEST%\Graphviz" "%JAVADEST%\graphviz.0"
+MOVE "%JAVADEST%\graphviz.0\bin" "%JAVADEST%\graphviz"
+RMDIR /S /Q "%JAVADEST%\graphviz.0"
 ECHO.
 
 IF EXIST %ICONDEST% (

@@ -6,7 +6,7 @@ PROFILEDIR="/etc/profile.d"
 MENUFILE="/usr/share/applications/eclipse.desktop"
 
 LISTA="
-	eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
+	eclipse-java-2021-03-R-linux-gtk-x86_64.tar.gz
 	"
 
 USUARIO="$(id -u)"
@@ -44,22 +44,18 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 		fi
 	fi
 
-	cat <<- EOF > "$MENUFILE"
+	cat <<- 'EOF' > "$MENUFILE"
 		[Desktop Entry]
 		Comment=
-		Exec=/opt/eclipse/eclipse -data $HOME/eclipse
+		Exec=/opt/eclipse/eclipse -data eclipse
 		GenericName=Entorno de desarrollo Java
 		Icon=/opt/eclipse/icon.xpm
 		Categories=Development;
 		Name=Eclipse
 		NoDisplay=false
-		Path[$e]=
 		StartupNotify=true
-		Terminal=0
-		TerminalOptions=
+		Terminal=false
 		Type=Application
-		X-KDE-SubstituteUID=false
-		X-KDE-Username=
 	EOF
 	chmod a+r "$MENUFILE"
 

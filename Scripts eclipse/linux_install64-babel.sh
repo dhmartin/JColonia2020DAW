@@ -22,8 +22,6 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 		fi
 	done
 
-	rm  -f "${DEST}/eclipse/dropins/WindowBuilder/eclipse"/*
-
 	chown -R root:root "$DEST1"
 	chmod -R go+r-w "$DEST1"
 else
