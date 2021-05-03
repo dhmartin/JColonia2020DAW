@@ -14,7 +14,7 @@ ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_openj9_11.0.10_9_openj9-0.24.0.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
