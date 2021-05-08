@@ -47,7 +47,7 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 	cat <<- 'EOF' > "$MENUFILE"
 		[Desktop Entry]
 		Comment=
-		Exec=/opt/eclipse/eclipse -data eclipse
+		Exec=/opt/eclipse/eclipse -data eclipse -vm /usr/bin/java
 		GenericName=Entorno de desarrollo Java
 		Icon=/opt/eclipse/icon.xpm
 		Categories=Development;
