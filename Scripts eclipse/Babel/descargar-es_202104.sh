@@ -8,6 +8,7 @@ rm -f BabelLanguagePack*.zip
 
 FECHA=$(lynx -dump "${URL0}" |
 	grep -E "\[[[:digit:]]+\][NI][[:digit:]]{8}-[[:digit:]]{4}$" |
+	sort -t "]" -k3.2 |
 	tail -1 |
 	sed -E 's/.*([NI][[:digit:]]{8}-[[:digit:]]{4}).*/\1/')
 
