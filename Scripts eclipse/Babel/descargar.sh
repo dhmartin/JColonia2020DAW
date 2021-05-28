@@ -19,5 +19,3 @@ lynx -dump "${URL0}/${FECHA}/${VERSION_ECLIPSE}/" |
 	xargs wget -c
 
 ls -la BabelLanguagePack*.zip | wc -l
-
-
