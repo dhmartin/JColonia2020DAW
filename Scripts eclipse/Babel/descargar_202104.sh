@@ -1,16 +1,16 @@
 #!/bin/bash
 
 URL0="https://download.eclipse.org/technology/babel/babel_language_packs/"
-VERSION_ECLIPSE="2021-03"
+VERSION_ECLIPSE="2021-06"
 
 rm -f BabelLanguagePack*.zip
 
 
 FECHA=$(lynx -dump "${URL0}" |
-	grep -E "\[[[:digit:]]+\][I][[:digit:]]{8}-[[:digit:]]{4}$" |
+	grep -E "\[[[:digit:]]+\][IN][[:digit:]]{8}-[[:digit:]]{4}$" |
 	sort -t "]" -k3.2 |
 	tail -1 |
-	sed -E 's/.*([NI][[:digit:]]{8}-[[:digit:]]{4}).*/\1/')
+	sed -E 's/.*([IN][[:digit:]]{8}-[[:digit:]]{4}).*/\1/')
 
 
 lynx -dump "${URL0}/${FECHA}/${VERSION_ECLIPSE}/${VERSION_ECLIPSE}.php" |
