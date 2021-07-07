@@ -23,8 +23,8 @@ eclipse-java-2021-03-R-win32-x86_64.zip
 eclipse-java-2021-03-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
 	https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-03/R/eclipse-java-2021-03-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-03/R/eclipse-java-2021-03-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.18.3/2021-03/2021-03.php
