@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ¿Visor «SWT» para Javadoc?
+# sudo apt install libswt-webkit-gtk-4-jni
+
+
 DEST="/opt"
 PROFILE="eclipse.sh"
 PROFILEDIR="/etc/profile.d"
