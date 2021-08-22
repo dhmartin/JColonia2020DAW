@@ -1,6 +1,9 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
+SET PS1=JDK11
+SET PROMPT=$e[0;33m$c%PS1%$f$s$e[0;32m$p$g$e[m$s
+
 ECHO Entorno Java
 ECHO ============
 ECHO.
