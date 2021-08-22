@@ -6,7 +6,7 @@ SET PATH=c:\java\jdk11\bin;%PATH%
 SET CLASSPATH=bin
 SET JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
 
-ECHO Procesado «dropins» para ECLIPSE
+ECHO Procesado de «dropins» para ECLIPSE
 ECHO =================================
 ECHO.
 

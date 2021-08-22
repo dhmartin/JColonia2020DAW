@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2021-03
+ECHO Instalación de ECLIPSE 2021-06
 ECHO ==============================
 ECHO.
 
@@ -14,7 +14,7 @@ ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
