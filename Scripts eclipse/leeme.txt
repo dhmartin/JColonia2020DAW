@@ -15,39 +15,43 @@ w10_install64 - babel.cmd
 Descargas:
 ==========
 
-OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip
+ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip
 	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9
-	https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.11%2B9_openj9-0.26.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip
+	https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip
 
-eclipse-java-2021-03-R-win32-x86_64.zip
-eclipse-java-2021-03-R-linux-gtk-x86_64.tar.gz
+
+eclipse-java-2021-06-R-win32-x86_64.zip
+eclipse-java-2021-06-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-java-developers
 	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip
 	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
-https://download.eclipse.org/technology/babel/babel_language_packs/R0.18.3/2021-03/2021-03.php
-https://build.eclipse.org/technology/babel/babel_language_packs/
-BabelLanguagePack-eclipse-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-eclipse-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-datatools-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-mylyn-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-rt.rap-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-technology.egit-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-technology.jgit-es_4.19.0.v20210327020002.zip
-	http://www.eclipse.org/downloads/download.php?file=/technology/babel/babel_language_packs/R0.18.3/2021-03/BabelLanguagePack-webtools-es_4.19.0.v20210327020002.zip
+https://download.eclipse.org/technology/babel/babel_language_packs/R0.19.0/2021-06/2021-06.php
+https://download.eclipse.org/technology/babel/babel_language_packs/
+BabelLanguagePack-eclipse-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-eclipse-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-datatools-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-mylyn-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-rt.rap-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-technology.packaging.mpc-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-technology.egit-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-technology.jgit-es_4.20.0.v20210821020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-webtools-es_4.20.0.v20210821020001.zip
 
 Oracle Java:
 	https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 Doxygen:
-	http://www.doxygen.nl/download.html
-	https://doxygen.nl/files/doxygen-1.9.1.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.9.1/doxygen-1.9.1.windows.x64.bin.zip/download
+	https://www.doxygen.nl/download.html#srcbin
+	https://www.doxygen.nl/files/doxygen-1.9.2.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.9.2/doxygen-1.9.2.windows.x64.bin.zip/download
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
+	https://gitlab.com/graphviz/graphviz/-/releases
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.48.0/stable_windows_10_msbuild_Release_Win32_graphviz-2.48.0-win32.zip
 	https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
 	
 WindowBuilder:
