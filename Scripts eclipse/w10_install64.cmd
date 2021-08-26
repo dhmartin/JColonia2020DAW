@@ -13,9 +13,14 @@ ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
 "%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2021-06-R-win32-x86_64.zip"
 ECHO.
 
-ECHO Descomprimiendo «openJDK» en %JAVADEST%:
+ECHO Descomprimiendo «openJDK11» en %JAVADEST%:
 "%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
+ECHO.
+
+ECHO Descomprimiendo «openJDK17» en %JAVADEST%:
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\openjdk-17_windows-x64_bin.zip"
+MOVE "%JAVADEST%\jdk-17*" "%JAVADEST%\jdk17"
 ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
@@ -32,8 +37,10 @@ IF EXIST %ICONDEST% (
 	ECHO Copiando accesos directos en %ICONDEST%:
 	COPY /Y "%SRCDIR%\eclipse.lnk" "%ICONDEST%"
 	COPY /Y "%SRCDIR%\Entorno JDK11.lnk" "%ICONDEST%"
+	COPY /Y "%SRCDIR%\Entorno JDK17.lnk" "%ICONDEST%"
 	ECHO Copiando scripts en %JAVADEST%:
-	COPY /Y "%SRCDIR%\ijavaW10.cmd" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\ijava11W10.cmd" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\ijava17W10.cmd" "%JAVADEST%"
 	ECHO.
 )
 

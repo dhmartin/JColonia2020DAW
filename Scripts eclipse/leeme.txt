@@ -19,6 +19,9 @@ ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip
 	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9
 	https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip
 
+openjdk-17_windows-x64_bin.zip
+	https://jdk.java.net/17/
+	https://download.java.net/java/GA/jdk17/0d483333a00540d886896bac774ff48b/35/GPL/openjdk-17_windows-x64_bin.zip
 
 eclipse-java-2021-06-R-win32-x86_64.zip
 eclipse-java-2021-06-R-linux-gtk-x86_64.tar.gz
