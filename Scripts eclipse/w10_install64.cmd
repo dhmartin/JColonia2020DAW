@@ -8,18 +8,21 @@ ECHO.
 SET SRCDIR=%~dp0
 SET ICONDEST=%PUBLIC%\Desktop
 SET JAVADEST=C:\java
+SET PROGRAMDEST=
 
-ECHO Descomprimiendo «eclipse» en %ProgramFiles%:
-"%SRCDIR%\unzip" -qnd "%ProgramFiles%" "%SRCDIR%\eclipse-java-2021-09-R-win32-x86_64.zip"
+IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
+
+ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
+"%SRCDIR%\unzip" -qnd "%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2021-09-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK11» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\ibm-semeru-open-jdk_x64_windows_11.0.13_8_openj9-0.29.0.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
 ECHO Descomprimiendo «openJDK17» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\openjdk-17_windows-x64_bin.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\openjdk-17.0.1_windows-x64_bin.zip"
 MOVE "%JAVADEST%\jdk-17*" "%JAVADEST%\jdk17"
 ECHO.
 

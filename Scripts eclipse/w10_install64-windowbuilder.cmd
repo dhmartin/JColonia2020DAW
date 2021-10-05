@@ -6,7 +6,11 @@ ECHO =========================================
 ECHO.
 
 SET SRCDIR=%~dp0
-SET WBDEST=%ProgramFiles%\eclipse\dropins
+SET PROGRAMDEST=
+
+IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
+
+SET WBDEST=%PROGRAMDEST%\eclipse\dropins
 
 IF EXIST "%WBDEST%" (
 	IF EXIST "%WBDEST%\WindowBuilder" RMDIR /S /Q "%WBDEST%\WindowBuilder"
