@@ -7,10 +7,10 @@ rm -f BabelLanguagePack*.zip
 
 
 FECHA=$(lynx -dump "${URL0}" |
-	grep -E "\[[[:digit:]]+\][IN][[:digit:]]{8}-[[:digit:]]{4}$" |
-	sort -t "]" -k3.2 |
-	tail -1 |
-	sed -E 's/.*([IN][[:digit:]]{8}-[[:digit:]]{4}).*/\1/')
+	grep -E "https://.+/[IN][[:digit:]]{8}-[[:digit:]]{4}$" |
+	sed -E 's/.*([IN][[:digit:]]{8}-[[:digit:]]{4}).*/\1/' |
+	sort -k1.2 |
+	tail -1)
 
 
 lynx -dump "${URL0}/${FECHA}/${VERSION_ECLIPSE}/${VERSION_ECLIPSE}.php" |
