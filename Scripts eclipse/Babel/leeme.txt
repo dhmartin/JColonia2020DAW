@@ -1,2 +1,2 @@
 Dejar en esta carpeta los archivos de traducciones deseados y borrar los antiguos.
-https://build.eclipse.org/technology/babel/babel_language_packs/
+https://www.eclipse.org/babel/downloads.php

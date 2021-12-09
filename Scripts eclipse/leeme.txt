@@ -14,21 +14,20 @@ w10_install64 - babel.cmd
 
 Descargas:
 ==========
+ibm-semeru-open-jdk_x64_windows_11.0.13_8_openj9-0.29.0.zip
+	https://developer.ibm.com/languages/java/semeru-runtimes/downloads
+	https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_x64_windows_11.0.13_8_openj9-0.29.0.zip
 
-ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip
-	https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=openj9
-	https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_windows_11.0.12_7_openj9-0.27.0.zip
-
-openjdk-17_windows-x64_bin.zip
+openjdk-17.0.1_windows-x64_bin.zip
 	https://jdk.java.net/17/
-	https://download.java.net/java/GA/jdk17/0d483333a00540d886896bac774ff48b/35/GPL/openjdk-17_windows-x64_bin.zip
+	https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_windows-x64_bin.zip
 
-eclipse-java-2021-09-R-win32-x86_64.zip
-eclipse-java-2021-09-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2021-12-R-win32-x86_64.zip
+eclipse-java-2021-12-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2021-09/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-09/R/eclipse-java-2021-09-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-09/R/eclipse-java-2021-09-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-12/R/eclipse-java-2021-12-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-12/R/eclipse-java-2021-12-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.19.0/2021-06/2021-06.php
