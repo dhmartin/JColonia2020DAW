@@ -53,6 +53,7 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.50.0/windows_10_msbuild_Release_graphviz-2.50.0-win32.zip
 	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_msbuild_Release_Win32_graphviz-2.49.0-win32.zip
 	https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
 
