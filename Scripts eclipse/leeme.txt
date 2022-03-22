@@ -14,47 +14,48 @@ w10_install64 - babel.cmd
 
 Descargas:
 ==========
-ibm-semeru-open-jdk_x64_windows_11.0.13_8_openj9-0.29.0.zip
-	https://developer.ibm.com/languages/java/semeru-runtimes/downloads
-	https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.13%2B8_openj9-0.29.0/ibm-semeru-open-jdk_x64_windows_11.0.13_8_openj9-0.29.0.zip
+ibm-semeru-open-jdk_x64_windows_11.0.14.1_1_openj9-0.30.1.zip
+	https://developer.ibm.com/languages/java/semeru-runtimes/downloads/
+	https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.14.1%2B1_openj9-0.30.1/ibm-semeru-open-jdk_x64_windows_11.0.14.1_1_openj9-0.30.1.zip
 
-openjdk-17.0.1_windows-x64_bin.zip
+openjdk-17.0.2_windows-x64_bin.zip
 	https://jdk.java.net/17/
-	https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_windows-x64_bin.zip
+	https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_windows-x64_bin.zip
 
-eclipse-java-2021-12-R-win32-x86_64.zip
-eclipse-java-2021-12-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2022-03-R-win32-x86_64.zip
+eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-12/R/eclipse-java-2021-12-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-12/R/eclipse-java-2021-12-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-03/R/eclipse-java-2022-03-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-03/R/eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
-https://download.eclipse.org/technology/babel/babel_language_packs/R0.19.0/2021-06/2021-06.php
+https://download.eclipse.org/technology/babel/babel_language_packs/R0.19.2/2021-12/2021-12.php
 https://download.eclipse.org/technology/babel/babel_language_packs/
-BabelLanguagePack-eclipse-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-eclipse-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-datatools-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-mylyn-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-rt.rap-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-technology.packaging.mpc-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-technology.egit-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-technology.jgit-es_4.20.0.v20210821020001.zip
-	https://download.eclipse.org/technology/babel/babel_language_packs/I20210821-0200/2021-06/BabelLanguagePack-webtools-es_4.20.0.v20210821020001.zip
+BabelLanguagePack-eclipse-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-eclipse-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-datatools-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-mylyn-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-rt.rap-sv_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-technology.packaging.mpc-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-technology.egit-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-technology.jgit-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-technology.lsp4e-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-tools.cdt-es_4.22.0.v20220319020001.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20220319-0200/2021-12/BabelLanguagePack-webtools-es_4.22.0.v20220319020001.zip
 
 Oracle Java:
 	https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.9.2.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.9.2/doxygen-1.9.2.windows.x64.bin.zip/download
+	https://www.doxygen.nl/files/doxygen-1.9.3.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.9.3/doxygen-1.9.3.windows.x64.bin.zip/download
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_msbuild_Release_Win32_graphviz-2.49.0-win32.zip
-	https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/3.0.0/windows_10_msbuild_Release_graphviz-3.0.0-win32.zip
 
 WindowBuilder:
 	https://www.eclipse.org/windowbuilder/download.php
@@ -65,4 +66,4 @@ Git for Windows
 	https://git-scm.com/download/win
 	https://gitforwindows.org/
 	https://github.com/git-for-windows/git/releases
-	https://github.com/git-for-windows/git/releases/download/v2.27.0-rc0.windows.1/MinGit-2.27.0-rc0-64-bit.zip
+	https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/MinGit-2.35.1.2-64-bit.zip
