@@ -14,13 +14,13 @@ w10_install64 - babel.cmd
 
 Descargas:
 ==========
-ibm-semeru-open-jdk_x64_windows_11.0.14.1_1_openj9-0.30.1.zip
-	https://developer.ibm.com/languages/java/semeru-runtimes/downloads/
-	https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.14.1%2B1_openj9-0.30.1/ibm-semeru-open-jdk_x64_windows_11.0.14.1_1_openj9-0.30.1.zip
+OpenJDK11U-jdk_x64_windows_hotspot_11.0.15_10.zip
+	https://github.com/adoptium/temurin11-binaries/releases/
+	https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.15%2B10/OpenJDK11U-jdk_x64_windows_hotspot_11.0.15_10.zip
 
-openjdk-17.0.2_windows-x64_bin.zip
-	https://jdk.java.net/17/
-	https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_windows-x64_bin.zip
+OpenJDK17U-jdk_x64_windows_hotspot_17.0.3_7.zip
+	https://github.com/adoptium/temurin17-binaries/releases/
+	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.3_7.zip
 
 eclipse-java-2022-03-R-win32-x86_64.zip
 eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
