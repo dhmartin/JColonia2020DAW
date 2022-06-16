@@ -22,12 +22,12 @@ OpenJDK17U-jdk_x64_windows_hotspot_17.0.3_7.zip
 	https://github.com/adoptium/temurin17-binaries/releases/
 	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.3%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.3_7.zip
 
-eclipse-java-2022-03-R-win32-x86_64.zip
-eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2022-06-R-win32-x86_64.zip
+eclipse-java-2022-06-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-03/R/eclipse-java-2022-03-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-03/R/eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-06/R/eclipse-java-2022-06-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-06/R/eclipse-java-2022-06-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.19.2/2021-12/2021-12.php
@@ -49,8 +49,8 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.9.3.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.9.3/doxygen-1.9.3.windows.x64.bin.zip/download
+	https://www.doxygen.nl/files/doxygen-1.9.4.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.9.4/doxygen-1.9.4.windows.x64.bin.zip/download
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
