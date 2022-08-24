@@ -17,12 +17,12 @@ ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK11» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_hotspot_11.0.16_8.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_hotspot_11.0.16.1_1.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
 ECHO Descomprimiendo «openJDK17» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK17U-jdk_x64_windows_hotspot_17.0.4.1_1.zip"
 MOVE "%JAVADEST%\jdk-17*" "%JAVADEST%\jdk17"
 ECHO.
 
