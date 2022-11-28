@@ -6,7 +6,7 @@ ECHO =========================================
 ECHO.
 
 SET SRCDIR=%~dp0
-SET PROGRAMDEST=
+SET PROGRAMDEST=C:\java
 
 IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
 
