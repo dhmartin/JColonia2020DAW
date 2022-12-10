@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2022-09
+ECHO Instalación de ECLIPSE 2022-12
 ECHO ==============================
 ECHO.
 
@@ -13,7 +13,7 @@ SET PROGRAMDEST=C:\java
 IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
 
 ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
-"%SRCDIR%\unzip" -qnd "%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2022-09-R-win32-x86_64.zip"
+"%SRCDIR%\unzip" -qnd "%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2022-12-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK11» en %JAVADEST%:
@@ -28,8 +28,8 @@ ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
 MKDIR "%JAVADEST%\doxygen"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.5.windows.x64.bin.zip"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\windows_10_msbuild_Release_graphviz-7.0.3-win32.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.4.windows.x64.bin.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\windows_10_msbuild_Release_graphviz-7.0.4-win32.zip"
 
 MOVE "%JAVADEST%\Graphviz" "%JAVADEST%\graphviz.0"
 MOVE "%JAVADEST%\graphviz.0\bin" "%JAVADEST%\graphviz"

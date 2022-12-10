@@ -10,7 +10,7 @@ PROFILEDIR="/etc/profile.d"
 MENUFILE="/usr/share/applications/eclipse.desktop"
 
 LISTA="
-	eclipse-java-2022-06-R-linux-gtk-x86_64.tar.gz
+	eclipse-java-2022-12-R-linux-gtk-x86_64.tar.gz
 	"
 
 USUARIO="$(id -u)"
