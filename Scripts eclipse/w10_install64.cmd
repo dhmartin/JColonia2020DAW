@@ -28,8 +28,8 @@ ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
 MKDIR "%JAVADEST%\doxygen"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.4.windows.x64.bin.zip"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\windows_10_msbuild_Release_graphviz-7.0.4-win32.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.6.windows.x64.bin.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\windows_10_msbuild_Release_graphviz-7.0.5-win32.zip"
 
 MOVE "%JAVADEST%\Graphviz" "%JAVADEST%\graphviz.0"
 MOVE "%JAVADEST%\graphviz.0\bin" "%JAVADEST%\graphviz"
