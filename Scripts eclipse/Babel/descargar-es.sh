@@ -1,7 +1,7 @@
 #!/bin/bash
 
 URL0="https://download.eclipse.org/technology/babel/babel_language_packs/"
-VERSION_ECLIPSE="2021-12"
+VERSION_ECLIPSE="2022-12"
 
 rm -f BabelLanguagePack*.zip
 
