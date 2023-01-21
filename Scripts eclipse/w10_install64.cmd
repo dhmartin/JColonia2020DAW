@@ -17,12 +17,12 @@ ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK11» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_hotspot_11.0.17_8.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_hotspot_11.0.18_10.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
 ECHO Descomprimiendo «openJDK17» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK17U-jdk_x64_windows_hotspot_17.0.5_8.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK17U-jdk_x64_windows_hotspot_17.0.6_10.zip"
 MOVE "%JAVADEST%\jdk-17*" "%JAVADEST%\jdk17"
 ECHO.
 
@@ -37,11 +37,14 @@ RMDIR /S /Q "%JAVADEST%\graphviz.0"
 ECHO.
 
 IF EXIST %ICONDEST% (
-	ECHO Copiando accesos directos en %ICONDEST%:
+	ECHO Copiando accesos directos a %ICONDEST%:
 	COPY /Y "%SRCDIR%\eclipse.lnk" "%ICONDEST%"
 	COPY /Y "%SRCDIR%\Entorno JDK11.lnk" "%ICONDEST%"
 	COPY /Y "%SRCDIR%\Entorno JDK17.lnk" "%ICONDEST%"
-	ECHO Copiando scripts en %JAVADEST%:
+	ECHO Copiando scripts y accesos directos a %JAVADEST%:
+	COPY /Y "%SRCDIR%\eclipse.lnk" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\Entorno JDK11.lnk" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\Entorno JDK17.lnk" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\ijava11W10.cmd" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\ijava17W10.cmd" "%JAVADEST%"
 	ECHO.
