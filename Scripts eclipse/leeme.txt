@@ -3,26 +3,27 @@ Renombrar o incluso borrar:
 	c:\archivos de programa\eclipse
 
 
-Instalar como usuario o como administrador (deja iconos es escritorio común)
-	Instalar como usuario, sin privilegios:
+Instalar como usuario o como administrador, a elegir…
+	Instalar como usuario, sin privilegios: deja los iconos en el escritorio privado personal
 	w10_install64-user.cmd
 		(doble clic)
 
-	Instalar como usuario, sin privilegios:
+	Instalar como administrador, requiere privilegios: deja los iconos en el escritorio público común
 	w10_install64.cmd
 		(clic botón derecho)
 		«Ejecutar como Administrador»
 
 
 Para instalar o actualizar las traducciones del proyecto «Babel»
-(dejar los archivos deseados en «dropins», en la subcarpeta «Babel»)
+(deja los archivos deseados en «dropins», en la subcarpeta «Babel»)
 w10_install64 - babel.cmd
 	(doble clic)
 
 Para instalar o actualizar el editor de aplicaciones con ventanas
-(dejar los archivos deseados en «dropins», en la subcarpeta «WindowBuilder»)
+(deja los archivos deseados en «dropins», en la subcarpeta «WindowBuilder»)
 w10_install64 - windowbuilder.cmd
 	(doble clic)
+
 
 Descargas:
 ==========
@@ -61,6 +62,7 @@ BabelLanguagePack-eclipse-es_4.26.0.v20230220105658.zip
 
 Oracle Java:
 	https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
