@@ -15,7 +15,7 @@ SET WBDEST=%PROGRAMDEST%\eclipse\dropins
 IF EXIST "%WBDEST%" (
 	IF EXIST "%WBDEST%\WindowBuilder" RMDIR /S /Q "%WBDEST%\WindowBuilder"
 	
-	FOR %%F IN ("%SRCDIR%WindowBuilder\repository.zip") DO (
+	FOR %%F IN ("%SRCDIR%WindowBuilder\WindowBuilder*.zip") DO (
 		ECHO Descomprimiendo %%~nxF…
 		MKDIR "%WBDEST%\%%~nF"
 		MKDIR "%WBDEST%\%%~nF\eclipse"

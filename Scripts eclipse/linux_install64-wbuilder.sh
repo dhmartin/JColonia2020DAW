@@ -6,30 +6,37 @@ USUARIO="$(id -u)"
 PROG="$(basename $0)"
 
 
+DEST1="${DEST}/eclipse/dropins/WindowBuilder"
+DEST2="${DEST1}/eclipse"
+DEST3="${DEST2}/plugins"
+
+
 if [[ "$USUARIO" -eq 0 ]] ; then
-	rm -rf ${DEST}/eclipse/dropins/WindowBuilder
+        rm -rf ${DEST}/eclipse/dropins/WindowBuilder
 
-	for file in WindowBuilder/*.zip ; do
-		if [[ $? -eq 0 ]]; then
-			DEST2="${DEST}/eclipse/dropins/WindowBuilder"
-			DEST1="${DEST2}/eclipse"
-			mkdir "$DEST2"
-			mkdir "$DEST1"
+        # Comprobar si hay ZIP y ¡solo uno!
+        for file in $(echo WindowBuilder/*.zip | grep -v [*[:space:]]); do
+                mkdir "$DEST1"
+                mkdir "$DEST2"
 
-			echo "Descomprimiendo $file en $DEST1"
-			unzip -nd "$DEST1" "$file" > /dev/null
-		else
-			break;
-		fi
-	done
+                echo "Descomprimiendo $file en $DEST2"
+                unzip -nd "$DEST2" "$file" > /dev/null
 
-	rm  -f "${DEST}/eclipse/dropins/WindowBuilder/eclipse"/*
+                if [[ $? -eq 0 ]]; then
+                        for jarfile in $(echo WindowBuilder/*.jar | grep -v [*]); do
+                                echo "Copiando $jarfile en $DEST3"
+                                cp -a "$jarfile" "$DEST3" > /dev/null
+                        done
+                fi
+        done
 
-	chown -R root:root "$DEST2"
-	chmod -R go+r-w "$DEST2"
+        rm  -f "${DEST}/eclipse/dropins/WindowBuilder/eclipse"/*
 
+        chown -R root:root "$DEST1"
+        chmod -R go+r-w "$DEST1"
 else
-	echo "$PROG: Probablemente no dispone de permisos suficientes"
+        echo "$PROG: Probablemente no dispone de permisos suficientes"
+        exit 1
 fi
 
 exit 0
