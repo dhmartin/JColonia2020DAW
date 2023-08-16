@@ -17,19 +17,19 @@ ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK11» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_hotspot_11.0.19_7.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip"
 MOVE "%JAVADEST%\jdk-11*" "%JAVADEST%\jdk11"
 ECHO.
 
 ECHO Descomprimiendo «openJDK17» en %JAVADEST%:
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\OpenJDK17U-jdk_x64_windows_hotspot_17.0.8_7.zip"
 MOVE "%JAVADEST%\jdk-17*" "%JAVADEST%\jdk17"
 ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
 MKDIR "%JAVADEST%\doxygen"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.6.windows.x64.bin.zip"
-"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\windows_10_msbuild_Release_graphviz-8.0.3-win32.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.9.7.windows.x64.bin.zip"
+"%SRCDIR%\unzip" -qnd "%JAVADEST%" "%SRCDIR%\windows_10_msbuild_Release_graphviz-8.1.0-win32.zip"
 
 MOVE "%JAVADEST%\Graphviz" "%JAVADEST%\graphviz.0"
 MOVE "%JAVADEST%\graphviz.0\bin" "%JAVADEST%\graphviz"

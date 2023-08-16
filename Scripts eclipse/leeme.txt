@@ -3,37 +3,36 @@ Renombrar o incluso borrar:
 	c:\archivos de programa\eclipse
 
 
-Instalar como usuario o como administrador, a elegir…
-	Instalar como usuario, sin privilegios: deja los iconos en el escritorio privado personal
+Instalar como usuario o como administrador (deja iconos es escritorio común)
+	Instalar como usuario, sin privilegios:
 	w10_install64-user.cmd
 		(doble clic)
 
-	Instalar como administrador, requiere privilegios: deja los iconos en el escritorio público común
+	Instalar como usuario, sin privilegios:
 	w10_install64.cmd
 		(clic botón derecho)
 		«Ejecutar como Administrador»
 
 
 Para instalar o actualizar las traducciones del proyecto «Babel»
-(deja los archivos deseados en «dropins», en la subcarpeta «Babel»)
+(dejar los archivos deseados en «dropins», en las subcarpetas «Babel*»)
 w10_install64 - babel.cmd
 	(doble clic)
 
 Para instalar o actualizar el editor de aplicaciones con ventanas
-(deja los archivos deseados en «dropins», en la subcarpeta «WindowBuilder»)
+(dejar los archivos deseados en «dropins», en la subcarpeta «WindowBuilder»)
 w10_install64 - windowbuilder.cmd
 	(doble clic)
 
-
 Descargas:
 ==========
-OpenJDK11U-jdk_x64_windows_hotspot_11.0.19_7.zip
+OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip
 	https://github.com/adoptium/temurin11-binaries/releases/
-	https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.19%2B7/OpenJDK11U-jdk_x64_windows_hotspot_11.0.19_7.zip
+	https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip
 
-OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.zip
+OpenJDK17U-jdk_x64_windows_hotspot_17.0.8_7.zip
 	https://github.com/adoptium/temurin17-binaries/releases/
-	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.zip
+	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.8_7.zip
 
 
 eclipse-java-2023-03-R-win32-x86_64.zip
@@ -66,18 +65,20 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.9.6.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.9.6/doxygen-1.9.6.windows.x64.bin.zip
+	https://www.doxygen.nl/files/doxygen-1.9.7.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.9.7/doxygen-1.9.7.windows.x64.bin.zip
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/8.0.3/windows_10_msbuild_Release_graphviz-8.0.3-win32.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/8.1.0/windows_10_msbuild_Release_graphviz-8.1.0-win32.zip
+
 
 WindowBuilder:
 	https://www.eclipse.org/windowbuilder/download.php
 	http://eclipse.org/downloads/download.php?file=/windowbuilder/latest/repository.zip
 	https://ftp.snt.utwente.nl/pub/software/eclipse/windowbuilder/latest/repository.zip
+
 
 Git for Windows
 	https://git-scm.com/download/win
