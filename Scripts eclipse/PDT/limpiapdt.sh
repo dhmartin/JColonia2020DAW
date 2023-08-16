@@ -16,17 +16,18 @@ fi
 DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2023-03/R/eclipse-php-2023-03-R-linux-gtk-x86_64.tar.gz
 ARCHIVO=${DESCARGABLE##*/}
 
+# ARCHIVO=$(echo eclipse-php*.tar.gz)
+NOMBRE=${ARCHIVO%.tar.gz}
+NOMBRE=pdt${NOMBRE#eclipse-php}
+DESTINO=${NOMBRE}.tar.bz2
+ARCHIVO_LOG=${NOMBRE}.log
+
 if [[ ! -f  "${ARCHIVO}" ]]; then
 	echo "Descargando «${ARCHIVO}»…"
 	wget -c "${DESCARGABLE}"
 fi
 
-
-# ARCHIVO=$(echo eclipse-php*.tar.gz)
-NOMBRE=${ARCHIVO%.tar.gz}
-NOMBRE=pdt${NOMBRE#eclipse-php}
-DESTINO=${NOMBRE}.tar.bz2
-
+exec &> >(tee $ARCHIVO_LOG)
 
 # Descomprimir todo
 if [[ -d $NOMBRE ]]; then
