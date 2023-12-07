@@ -37,12 +37,12 @@ OpenJDK21U-jdk_x64_windows_hotspot_21.0.1_12.zip
 eclipse-java-2023-09-R-win32-x86_64.zip
 eclipse-java-2023-09-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2023-09/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-09/R/eclipse-java-2023-09-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-09/R/eclipse-java-2023-09-R-linux-gtk-x86_64.tar.gz
-	https://www.eclipse.org/downloads/packages/release/2023-09/r/eclipse-ide-enterprise-java-and-web-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-09/R/eclipse-jee-2023-09-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-09/R/eclipse-jee-2023-09-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2023-12/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-java-2023-12-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-java-2023-12-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2023-12/r/eclipse-ide-enterprise-java-and-web-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-jee-2023-12-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-jee-2023-12-R-linux-gtk-x86_64.tar.gz
 
 
 https://www.eclipse.org/babel/downloads.php

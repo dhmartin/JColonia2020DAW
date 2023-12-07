@@ -10,7 +10,7 @@ PROFILEDIR="/etc/profile.d"
 MENUFILE="/usr/share/applications/eclipse.desktop"
 
 LISTA="
-	eclipse-jee-2023-09-R-linux-gtk-x86_64.tar.gz
+	eclipse-jee-2023-12-R-linux-gtk-x86_64.tar.gz
 	"
 
 USUARIO="$(id -u)"

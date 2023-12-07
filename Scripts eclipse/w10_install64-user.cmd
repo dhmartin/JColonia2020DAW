@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2023-09
+ECHO Instalación de ECLIPSE 2023-12
 ECHO ==============================
 ECHO.
 
@@ -13,7 +13,7 @@ SET PROGRAMDEST=C:\java
 IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
 
 ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
-"%SRCDIR%\unzip" -qnd "%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2023-09-R-win32-x86_64.zip"
+"%SRCDIR%\unzip" -qnd "%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2023-12-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK17» en %JAVADEST%:
