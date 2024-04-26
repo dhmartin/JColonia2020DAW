@@ -19,7 +19,7 @@ IF EXIST "%WBDEST%" (
 		ECHO Descomprimiendo %%~nxF…
 		MKDIR "%WBDEST%\%%~nF"
 		MKDIR "%WBDEST%\%%~nF\eclipse"
-		"%SRCDIR%unzip" -qnd "%WBDEST%\%%~nF\eclipse" "%%~fF"
+		"%SRCDIR%\7za" x -bso0 -bd -o"%WBDEST%\%%~nF\eclipse" "%%~fF"
 		DEL /Q "%WBDEST%\%%~nF\eclipse\*.*"
 		MOVE "%WBDEST%\%%~nF" "%WBDEST%\WindowBuilder"
 	)

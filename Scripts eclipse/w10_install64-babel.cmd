@@ -18,7 +18,7 @@ IF EXIST "%BABELDEST%" (
 	FOR %%F IN ("%SRCDIR%Babel\*.zip") DO (
 		ECHO Descomprimiendo %%~nxF…
 		MKDIR "%BABELDEST%\%%~nF"
-		"%SRCDIR%\unzip" -qnd "%BABELDEST%\%%~nF" "%%~fF"
+		"%SRCDIR%\7za" x -bso0 -bd -o"%BABELDEST%\%%~nF" "%%~fF"
 	)
 )
 
