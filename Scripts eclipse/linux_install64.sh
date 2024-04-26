@@ -10,7 +10,7 @@ PROFILEDIR="/etc/profile.d"
 MENUFILE="/usr/share/applications/eclipse.desktop"
 
 LISTA="
-	eclipse-jee-2023-12-R-linux-gtk-x86_64.tar.gz
+	eclipse-jee-2024-03-R-linux-gtk-x86_64.tar.gz
 	"
 
 USUARIO="$(id -u)"
@@ -37,7 +37,7 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 	echo -e "Verifique que el JRE empleado por Eclipse es" &&
 	echo -e "el JDK deseado. Edítelo y apunte URL Javadoc" &&
 	echo -e "a una réplica de:" &&
-	echo -e "   https://docs.oracle.com/en/java/javase/17/docs/api/\n"
+	echo -e "   https://docs.oracle.com/en/java/javase/21/docs/api/\n"
 
 	if [ $? -eq 0 -a -d "$PROFILEDIR" ]; then
 		if [[ ! -f "$PROFILEDIR/$PROFILE" ]] ||

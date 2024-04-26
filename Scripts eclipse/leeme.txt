@@ -26,24 +26,26 @@ w10_install64 - windowbuilder.cmd
 
 Descargas:
 ==========
-OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.zip
+OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.zip
 	https://github.com/adoptium/temurin17-binaries/releases/
-	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.zip
+	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.zip
 
-OpenJDK21U-jdk_x64_windows_hotspot_21.0.2_13.zip
+OpenJDK21U-jdk_x64_windows_hotspot_21.0.3_9.zip
 	https://github.com/adoptium/temurin21-binaries/releases
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_windows_hotspot_21.0.2_13.zip
+	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.3_9.zip
+
 
 eclipse-java-2023-09-R-win32-x86_64.zip
 eclipse-java-2023-09-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://www.eclipse.org/downloads/packages/release/2023-12/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-java-2023-12-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-java-2023-12-R-linux-gtk-x86_64.tar.gz
-	https://www.eclipse.org/downloads/packages/release/2023-12/r/eclipse-ide-enterprise-java-and-web-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-jee-2023-12-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-12/R/eclipse-jee-2023-12-R-linux-gtk-x86_64.tar.gz
 
+	https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-java-2024-03-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-java-2024-03-R-linux-gtk-x86_64.tar.gz
+
+	https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-enterprise-java-and-web-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-jee-2024-03-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-jee-2024-03-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.20.0/2022-12/2022-12.php
@@ -57,6 +59,7 @@ BabelLanguagePack-eclipse-es_4.26.0.v20230220105658.zip
 	https://download.eclipse.org/technology/babel/babel_language_packs/I20230220-2200/2022-12/BabelLanguagePack-technology.egit-es_4.26.0.v20230220105658.zip
 	https://download.eclipse.org/technology/babel/babel_language_packs/I20230220-2200/2022-12/BabelLanguagePack-technology.jgit-es_4.26.0.v20230220105658.zip
 	https://download.eclipse.org/technology/babel/babel_language_packs/I20230220-2200/2022-12/BabelLanguagePack-technology.lsp4e-es_4.26.0.v20230220105658.zip
+	https://download.eclipse.org/technology/babel/babel_language_packs/I20230220-2200/2022-12/BabelLanguagePack-technology.tm4e-es_4.26.0.v20230220105658.zip
 	https://download.eclipse.org/technology/babel/babel_language_packs/I20230220-2200/2022-12/BabelLanguagePack-tools.cdt-es_4.26.0.v20230220105658.zip
 	https://download.eclipse.org/technology/babel/babel_language_packs/I20230220-2200/2022-12/BabelLanguagePack-webtools-es_4.26.0.v20230220105658.zip
 
@@ -73,7 +76,7 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/9.0.0/windows_10_msbuild_Release_graphviz-9.0.0-win32.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/10.0.1/windows_10_cmake_Release_Graphviz-10.0.1-win64.zip
 
 
 WindowBuilder:
@@ -87,4 +90,4 @@ Git for Windows
 	https://git-scm.com/download/win
 	https://gitforwindows.org/
 	https://github.com/git-for-windows/git/releases
-	https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/MinGit-2.40.0-64-bit.zip
+	https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/MinGit-2.44.0-64-bit.zip
