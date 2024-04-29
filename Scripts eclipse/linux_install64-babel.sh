@@ -5,6 +5,9 @@ DEST="/opt"
 USUARIO="$(id -u)"
 PROG="$(basename $0)"
 
+# function unzip_dest() { unzip -nd $1 $2; }
+function unzip_dest() { 7za x -bso0 -bd -o$1 $2; }
+
 
 if [[ "$USUARIO" -eq 0 ]] ; then
 	rm -rf ${DEST}/eclipse/dropins/Babel*
@@ -16,7 +19,7 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 		mkdir "$DEST1"
 
 		echo "Descomprimiendo $file en $DEST1"
-		unzip -nd "$DEST1" "$file" > /dev/null
+		unzip_dest "$DEST1" "$file" > /dev/null
 	done
 
 	chown -R root:root "$DEST1"

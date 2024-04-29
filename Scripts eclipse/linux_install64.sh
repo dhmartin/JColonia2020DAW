@@ -16,15 +16,20 @@ LISTA="
 USUARIO="$(id -u)"
 PROG="$(basename $0)"
 
+# function unzip_dest() { unzip -nd $1 $2; }
+function unzip_dest() { 7za x -bso0 -bd -o$1 $2; }
+
 
 if [[ "$USUARIO" -eq 0 ]] ; then
 	for file in $LISTA; do
 		if [[ $? -eq 0 ]]; then
 			echo "Descomprimiendo $file en $DEST"
 			if [[ "${file##*.}" == 'zip' ]]; then
-				unzip -nd "$DEST" "$file" > /dev/null
+				unzip_dest "$DEST" "$file" > /dev/null
 			elif [[ "${file##*.}" == 'gz' ]]; then
-				tar xzf "$file" -C "$DEST" > /dev/null
+				tar xzf "$file" -C "$DEST" \
+					--warning=no-unknown-keyword > /dev/null
+				[[ $? -eq 0 ]] && echo -e "\t→ Descompresión completa"
 			fi
 		else
 			break;
@@ -34,10 +39,10 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 	chown -R root:root "$DEST"
 	chmod -R go+r-w "$DEST"
 
-	echo -e "Verifique que el JRE empleado por Eclipse es" &&
+	echo -e "\nVerifique que el JRE empleado por Eclipse es" &&
 	echo -e "el JDK deseado. Edítelo y apunte URL Javadoc" &&
 	echo -e "a una réplica de:" &&
-	echo -e "   https://docs.oracle.com/en/java/javase/21/docs/api/\n"
+	echo -e "\thttps://docs.oracle.com/en/java/javase/21/docs/api/\n"
 
 	if [ $? -eq 0 -a -d "$PROFILEDIR" ]; then
 		if [[ ! -f "$PROFILEDIR/$PROFILE" ]] ||

@@ -10,6 +10,9 @@ DEST1="${DEST}/eclipse/dropins/WindowBuilder"
 DEST2="${DEST1}/eclipse"
 DEST3="${DEST2}/plugins"
 
+# function unzip_dest() { unzip -nd $1 $2; }
+function unzip_dest() { 7za x -bso0 -bd -o$1 $2; }
+
 
 if [[ "$USUARIO" -eq 0 ]] ; then
         rm -rf ${DEST}/eclipse/dropins/WindowBuilder
@@ -20,7 +23,7 @@ if [[ "$USUARIO" -eq 0 ]] ; then
                 mkdir "$DEST2"
 
                 echo "Descomprimiendo $file en $DEST2"
-                unzip -nd "$DEST2" "$file" > /dev/null
+                unzip_dest "$DEST2" "$file" > /dev/null
 
                 if [[ $? -eq 0 ]]; then
                         for jarfile in $(echo WindowBuilder/*.jar | grep -v [*]); do
