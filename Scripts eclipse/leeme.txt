@@ -80,7 +80,7 @@ Graphviz:
 
 
 WindowBuilder:
-	https://www.eclipse.org/windowbuilder/download.php
+	https://www.eclipse.org/windowbuilder/downloads/
 	https://download.eclipse.org/windowbuilder/updates/release/latest/
 	https://download.eclipse.org/windowbuilder/updates/milestone/latest/
 	https://download.eclipse.org/windowbuilder/updates/nightly/latest/
