@@ -76,7 +76,7 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/10.0.1/windows_10_cmake_Release_Graphviz-10.0.1-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/11.0.0/windows_10_cmake_Release_Graphviz-11.0.0-win64.zip
 
 
 WindowBuilder:
