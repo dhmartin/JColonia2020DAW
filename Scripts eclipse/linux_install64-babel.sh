@@ -20,10 +20,11 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 
 		echo "Descomprimiendo $file en $DEST1"
 		unzip_dest "$DEST1" "$file" > /dev/null
+
+		chown -R root:root "$DEST1"
+		chmod -R go+r-w "$DEST1"
 	done
 
-	chown -R root:root "$DEST1"
-	chmod -R go+r-w "$DEST1"
 else
 	echo "$PROG: Probablemente no dispone de permisos suficientes"
 	exit 1

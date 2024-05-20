@@ -36,7 +36,7 @@ if [[ "$USUARIO" -eq 0 ]] ; then
         rm  -f "${DEST}/eclipse/dropins/WindowBuilder/eclipse"/*
 
         chown -R root:root "$DEST1"
-        chmod -R go+r-w "$DEST1"
+        chmod -R a+rwX,go-w "$DEST1"
 else
         echo "$PROG: Probablemente no dispone de permisos suficientes"
         exit 1

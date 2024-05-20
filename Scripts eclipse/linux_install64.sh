@@ -36,8 +36,8 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 		fi
 	done
 
-	chown -R root:root "$DEST"
-	chmod -R go+r-w "$DEST"
+	chown -R root:root "$DEST/eclipse"
+	chmod -R go+r-w "$DEST/eclipse"
 
 	echo -e "\nVerifique que el JRE empleado por Eclipse es" &&
 	echo -e "el JDK deseado. Edítelo y apunte URL Javadoc" &&
