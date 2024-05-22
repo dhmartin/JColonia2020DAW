@@ -70,8 +70,8 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.10.0.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.10.0/doxygen-1.10.0.windows.x64.bin.zip
+	https://www.doxygen.nl/files/doxygen-1.11.0.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.11.0/doxygen-1.11.0.windows.x64.bin.zip
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
