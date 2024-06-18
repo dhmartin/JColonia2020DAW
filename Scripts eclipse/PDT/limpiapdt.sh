@@ -13,7 +13,7 @@ if [[ ! -d "$ECLIPSE0" ]]; then
 fi
 
 
-DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2024-03/R/eclipse-php-2024-03-R-linux-gtk-x86_64.tar.gz
+DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2024-06/R/eclipse-php-2024-06-R-linux-gtk-x86_64.tar.gz
 ARCHIVO=${DESCARGABLE##*/}
 
 # ARCHIVO=$(echo eclipse-php*.tar.gz)
@@ -35,7 +35,8 @@ if [[ -d $NOMBRE ]]; then
 fi
 
 mkdir $NOMBRE
-tar xf $ARCHIVO -C $NOMBRE
+tar xf $ARCHIVO -C $NOMBRE \
+	--warning=no-unknown-keyword > /dev/null
 
 
 # Dejar solo «features» y «plugins»
