@@ -15,31 +15,31 @@ function unzip_dest() { 7za x -bso0 -bd -o$1 $2; }
 
 
 if [[ "$USUARIO" -eq 0 ]] ; then
-        rm -rf ${DEST}/eclipse/dropins/WindowBuilder
+	rm -rf ${DEST}/eclipse/dropins/WindowBuilder
 
-        # Comprobar si hay ZIP y ¡solo uno!
-        for file in $(echo WindowBuilder/*.zip | grep -v [*[:space:]]); do
-                mkdir "$DEST1"
-                mkdir "$DEST2"
+	# Comprobar si hay ZIP y ¡solo uno!
+	for file in $(echo WindowBuilder/*.zip | grep -v [*[:space:]]); do
+		mkdir "$DEST1"
+		mkdir "$DEST2"
 
-                echo "Descomprimiendo $file en $DEST2"
-                unzip_dest "$DEST2" "$file" > /dev/null
+		echo "Descomprimiendo $file en $DEST2"
+		unzip_dest "$DEST2" "$file" > /dev/null
 
-                if [[ $? -eq 0 ]]; then
-                        for jarfile in $(echo WindowBuilder/*.jar | grep -v [*]); do
-                                echo "Copiando $jarfile en $DEST3"
-                                cp -a "$jarfile" "$DEST3" > /dev/null
-                        done
-                fi
-        done
+		if [[ $? -eq 0 ]]; then
+			for jarfile in $(echo WindowBuilder/*.jar | grep -v [*]); do
+				echo "Copiando $jarfile en $DEST3"
+				cp -a "$jarfile" "$DEST3" > /dev/null
+			done
+		fi
+	done
 
-        rm  -f "${DEST}/eclipse/dropins/WindowBuilder/eclipse"/*
+	rm  -f "${DEST}/eclipse/dropins/WindowBuilder/eclipse"/*
 
-        chown -R root:root "$DEST1"
-        chmod -R a+rwX,go-w "$DEST1"
+	chown -R root:root "$DEST1"
+	chmod -R a+rwX,go-w "$DEST1"
 else
-        echo "$PROG: Probablemente no dispone de permisos suficientes"
-        exit 1
+	echo "$PROG: Probablemente no dispone de permisos suficientes"
+	exit 1
 fi
 
 exit 0
