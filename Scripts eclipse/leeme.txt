@@ -35,17 +35,17 @@ OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
 	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
 
 
-eclipse-java-2024-06-R-win32-x86_64.zip
-eclipse-java-2024-06-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2024-09-R-win32-x86_64.zip
+eclipse-java-2024-09-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
 
-	https://www.eclipse.org/downloads/packages/release/2024-06/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-06/R/eclipse-java-2024-06-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-06/R/eclipse-java-2024-06-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2024-09/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-09/R/eclipse-java-2024-09-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-09/R/eclipse-java-2024-09-R-linux-gtk-x86_64.tar.gz
 
-	https://www.eclipse.org/downloads/packages/release/2024-06/r/eclipse-ide-enterprise-java-and-web-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-06/R/eclipse-jee-2024-06-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-06/R/eclipse-jee-2024-06-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2024-09/r/eclipse-ide-enterprise-java-and-web-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-09/R/eclipse-jee-2024-09-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-09/R/eclipse-jee-2024-09-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.20.0/2022-12/2022-12.php
@@ -76,7 +76,7 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.0.0/windows_10_cmake_Release_Graphviz-12.0.0-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.1.1/windows_10_cmake_Release_Graphviz-12.1.1-win64.zip
 
 
 WindowBuilder:
