@@ -8,12 +8,12 @@
 PROG=$(basename $0)
 ECLIPSE0=/opt/eclipse
 if [[ ! -d "$ECLIPSE0" ]]; then
-    echo "$PROG: Se requiere «Eclipse for Java Developers» en $ECLIPSE0" >&2
-    exit 1
+	echo "$PROG: Se requiere «Eclipse for Java Developers» en $ECLIPSE0" >&2
+	exit 1
 fi
 
 
-DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2024-06/R/eclipse-php-2024-06-R-linux-gtk-x86_64.tar.gz
+DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2024-09/R/eclipse-php-2024-09-R-linux-gtk-x86_64.tar.gz
 ARCHIVO=${DESCARGABLE##*/}
 
 # ARCHIVO=$(echo eclipse-php*.tar.gz)
