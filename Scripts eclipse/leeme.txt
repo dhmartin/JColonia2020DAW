@@ -26,13 +26,17 @@ w10_install64 - windowbuilder.cmd
 
 Descargas:
 ==========
-OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.msi
+OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
 	https://github.com/adoptium/temurin17-binaries/releases/
-	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.12_7.zip
+	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.13%2B11/OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip
 
-OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
-	https://github.com/adoptium/temurin21-binaries/releases
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip
+OpenJDK21U-jdk_x64_windows_hotspot_21.0.5_11.zip
+	https://github.com/adoptium/temurin21-binaries/releases/
+	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.5%2B11/OpenJDK21U-jdk_x64_windows_hotspot_21.0.5_11.zip
+
+OpenJDK23U-jdk_x64_windows_hotspot_23.0.1_11.zip
+	https://github.com/adoptium/temurin23-binaries/
+	https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jdk_x64_windows_hotspot_23.0.1_11.zip
 
 
 eclipse-java-2024-09-R-win32-x86_64.zip
@@ -76,7 +80,7 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.1.1/windows_10_cmake_Release_Graphviz-12.1.1-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.1.2/windows_10_cmake_Release_Graphviz-12.1.2-win64.zip
 
 
 WindowBuilder:
