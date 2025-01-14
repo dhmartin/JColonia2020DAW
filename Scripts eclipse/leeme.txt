@@ -74,13 +74,13 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.12.0.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.12.0/doxygen-1.12.0.windows.x64.bin.zip
+	https://www.doxygen.nl/files/doxygen-1.13.2.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.13.2/doxygen-1.13.2.windows.x64.bin.zip
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.2.0/windows_10_cmake_Release_Graphviz-12.2.0-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.2.1/windows_10_cmake_Release_Graphviz-12.2.1-win64.zip
 
 
 WindowBuilder:
