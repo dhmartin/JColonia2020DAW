@@ -21,12 +21,12 @@ ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK21» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.5_11.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7.zip"
 MOVE "%JAVADEST%\jdk-21*" "%JAVADEST%\jdk21"
 ECHO.
 
 ECHO Descomprimiendo «openJDK23» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK23U-jdk_x64_windows_hotspot_23.0.1_11.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK23U-jdk_x64_windows_hotspot_23.0.2_7.zip"
 MOVE "%JAVADEST%\jdk-23*" "%JAVADEST%\jdk23"
 ECHO.
 
