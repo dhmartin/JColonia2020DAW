@@ -13,7 +13,7 @@ if [[ ! -d "$ECLIPSE0" ]]; then
 fi
 
 
-DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2024-12/R/eclipse-php-2024-12-R-linux-gtk-x86_64.tar.gz
+DESCARGABLE=https://eclipse.mirror.garr.it/technology/epp/downloads/release/2025-03/R/eclipse-php-2025-03-R-linux-gtk-x86_64.tar.gz
 ARCHIVO=${DESCARGABLE##*/}
 
 # ARCHIVO=$(echo eclipse-php*.tar.gz)
