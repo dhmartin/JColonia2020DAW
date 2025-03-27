@@ -51,6 +51,7 @@ IF EXIST %ICONDEST% (
 	COPY /Y "%SRCDIR%\Entorno JDK24.lnk" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\ijava21W10.cmd" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\ijava24W10.cmd" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\ubicación.cmd" "%JAVADEST%"
 	ECHO.
 )
 
