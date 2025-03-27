@@ -8,8 +8,11 @@ ECHO Entorno Java
 ECHO ============
 ECHO.
 
-SET PATH=c:\java\jdk24\bin;%PATH%
-SET PATH=c:\java\doxygen;c:\java\graphviz;%PATH%
+SET ruta=%~dp0
+SET ruta=%ruta:~0,-1%
+
+SET PATH=%ruta%\jdk24\bin;%PATH%
+SET PATH=%ruta%\doxygen;%ruta%\graphviz;%PATH%
 SET PATH=%ProgramFiles%\varios;%PATH%
 
 SET CLASSPATH=bin
