@@ -27,29 +27,30 @@ w10_install64 - windowbuilder.cmd
 Descargas:
 ==========
 OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6.zip
-	https://github.com/adoptium/temurin17-binaries/releases/
+	https://github.com/adoptium/temurin17-binaries/releases/latest/
 	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6.zip
 
 OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.zip
-	https://github.com/adoptium/temurin21-binaries/releases/
+	https://github.com/adoptium/temurin21-binaries/releases/latest/
 	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.zip
 
 OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_9.zip
-	https://github.com/adoptium/temurin24-binaries/releases
+	https://github.com/adoptium/temurin24-binaries/releases/latest/
 	https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_9.zip
 
 
-eclipse-java-2025-03-R-win32-x86_64.zip
-eclipse-java-2025-03-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2025-06-R-win32-x86_64.zip
+eclipse-java-2025-06-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
+	https://eclipse.mirror.garr.it/technology/epp/downloads/release/2025-06/R/
 
-	https://www.eclipse.org/downloads/packages/release/2025-03/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-03/R/eclipse-java-2025-03-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-03/R/eclipse-java-2025-03-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2025-06/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-06/R/eclipse-java-2025-06-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-06/R/eclipse-java-2025-06-R-linux-gtk-x86_64.tar.gz
 
 	https://www.eclipse.org/downloads/packages/release/2025-03/r/eclipse-ide-enterprise-java-and-web-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-03/R/eclipse-jee-2025-03-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-03/R/eclipse-jee-2025-03-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-06/R/eclipse-jee-2025-06-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-06/R/eclipse-jee-2025-06-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.20.0/2022-12/2022-12.php
@@ -74,13 +75,13 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.13.2.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.13.2/doxygen-1.13.2.windows.x64.bin.zip
+	https://www.doxygen.nl/files/doxygen-1.14.0.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.14.0/doxygen-1.14.0.windows.x64.bin.zip
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/12.2.1/windows_10_cmake_Release_Graphviz-12.2.1-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/13.0.0/windows_10_cmake_Release_Graphviz-13.0.0-win64.zip
 
 
 WindowBuilder:
