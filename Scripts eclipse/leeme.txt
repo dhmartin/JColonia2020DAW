@@ -26,17 +26,17 @@ w10_install64 - windowbuilder.cmd
 
 Descargas:
 ==========
-OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6.zip
+OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip
 	https://github.com/adoptium/temurin17-binaries/releases/latest/
-	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6.zip
+	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip
 
-OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.zip
+OpenJDK21U-jdk_x64_windows_hotspot_21.0.8_9.zip
 	https://github.com/adoptium/temurin21-binaries/releases/latest/
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.zip
+	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.8_9.zip
 
-OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_9.zip
+OpenJDK24U-jdk_x64_windows_hotspot_24.0.2_12.zip
 	https://github.com/adoptium/temurin24-binaries/releases/latest/
-	https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_9.zip
+	https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_x64_windows_hotspot_24.0.2_12.zip
 
 
 eclipse-java-2025-06-R-win32-x86_64.zip
