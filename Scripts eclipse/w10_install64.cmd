@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2025-06
+ECHO Instalación de ECLIPSE 2025-09
 ECHO ==============================
 ECHO.
 
@@ -17,7 +17,7 @@ SET UNZIP_DEST="%SRCDIR%\7za" x -bso0 -bd -o
 IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
 
 ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
-%UNZIP_DEST%"%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2025-06-R-win32-x86_64.zip"
+%UNZIP_DEST%"%PROGRAMDEST%" "%SRCDIR%\eclipse-java-2025-09-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK21» en %JAVADEST%:

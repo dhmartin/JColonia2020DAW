@@ -7,7 +7,7 @@
 PROG=$(basename $0)
 
 ECLIPSE_VERSION=2025-09
-ECLIPSE_RELEASE=RC1
+ECLIPSE_RELEASE=R
 REPO=https://eclipse.mirror.garr.it/technology/epp/downloads/release/${ECLIPSE_VERSION}/${ECLIPSE_RELEASE}/
 
 ARCHIVOS="
