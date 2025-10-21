@@ -34,9 +34,9 @@ OpenJDK21U-jdk_x64_windows_hotspot_21.0.8_9.zip
 	https://github.com/adoptium/temurin21-binaries/releases/latest/
 	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.8_9.zip
 
-OpenJDK24U-jdk_x64_windows_hotspot_24.0.2_12.zip
-	https://github.com/adoptium/temurin24-binaries/releases/latest/
-	https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_x64_windows_hotspot_24.0.2_12.zip
+OpenJDK25U-jdk_x64_windows_hotspot_25_36.zip
+	https://github.com/adoptium/temurin25-binaries/releases/latest/
+	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_x64_windows_hotspot_25_36.zip
 
 
 eclipse-java-2025-06-R-win32-x86_64.zip
