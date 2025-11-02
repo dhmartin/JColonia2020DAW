@@ -26,17 +26,17 @@ w10_install64 - windowbuilder.cmd
 
 Descargas:
 ==========
-OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip
+OpenJDK17U-jdk_x64_windows_hotspot_17.0.17_10.zip
 	https://github.com/adoptium/temurin17-binaries/releases/latest/
-	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip
+	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk_x64_windows_hotspot_17.0.17_10.zip
 
-OpenJDK21U-jdk_x64_windows_hotspot_21.0.8_9.zip
+OpenJDK21U-jdk_x64_windows_hotspot_21.0.9_10.zip
 	https://github.com/adoptium/temurin21-binaries/releases/latest/
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.8_9.zip
+	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_x64_windows_hotspot_21.0.9_10.zip
 
-OpenJDK25U-jdk_x64_windows_hotspot_25_36.zip
+OpenJDK25U-jdk_x64_windows_hotspot_25.0.1_8.zip
 	https://github.com/adoptium/temurin25-binaries/releases/latest/
-	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36/OpenJDK25U-jdk_x64_windows_hotspot_25_36.zip
+	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.1_8.zip
 
 
 eclipse-java-2025-06-R-win32-x86_64.zip
@@ -75,8 +75,8 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.14.0.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.14.0/doxygen-1.14.0.windows.x64.bin.zip
+	https://www.doxygen.nl/files/doxygen-1.15.0.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.15.0/doxygen-1.15.0.windows.x64.bin.zip
 
 Graphviz:
 	https://graphviz.gitlab.io/download/
