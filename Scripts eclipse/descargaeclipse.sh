@@ -26,16 +26,16 @@ done | xargs wget -c
 ARCHIVOS="
 	limpiapdt.sh
 	linux_install64.sh
-	w10_install64.cmd
-	w10_install64-jee.cmd
-	w10_install64-user.cmd
-	w10_install64-user-jee.cmd
+	w11_install64.cmd
+	w11_install64-jee.cmd
+	w11_install64-user.cmd
+	w11_install64-user-jee.cmd
 "
 
 for file in ${ARCHIVOS}; do
     echo "$file"
 done | xargs sed -i \
-	-e "s/[[:digit:]]\{4\}-[[:digit:]]\{2\}\(-\|\/\)\(R\|RC1\|RC2\|M1\|M2\)/${ECLIPSE_VERSION}\1${ECLIPSE_RELEASE}/g" \
+	-e "s/[[:digit:]]\{4\}-[[:digit:]]\{2\}\(-\|\/\)\(R\|RC1\|RC2\|M1\|M2\|M3\)/${ECLIPSE_VERSION}\1${ECLIPSE_RELEASE}/g" \
 	-e "s/[[:digit:]]\{4\}-[[:digit:]]\{2\}\([^-]\)/${ECLIPSE_VERSION}\1/g"
 
 mkdirhier PDT
