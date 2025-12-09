@@ -39,18 +39,18 @@ OpenJDK25U-jdk_x64_windows_hotspot_25.0.1_8.zip
 	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.1%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.1_8.zip
 
 
-eclipse-java-2025-06-R-win32-x86_64.zip
-eclipse-java-2025-06-R-linux-gtk-x86_64.tar.gz
+eclipse-java-2025-12-R-win32-x86_64.zip
+eclipse-java-2025-12-R-linux-gtk-x86_64.tar.gz
 	https://www.eclipse.org/downloads/packages/
-	https://eclipse.mirror.garr.it/technology/epp/downloads/release/2025-09/R/
+	https://eclipse.mirror.garr.it/technology/epp/downloads/release/2025-12/R/
 
-	https://www.eclipse.org/downloads/packages/release/2025-09/r/eclipse-ide-java-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-09/R/eclipse-java-2025-09-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-09/R/eclipse-java-2025-09-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2025-12/r/eclipse-ide-java-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-12/R/eclipse-java-2025-12-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-12/R/eclipse-java-2025-12-R-linux-gtk-x86_64.tar.gz
 
-	https://www.eclipse.org/downloads/packages/release/2025-09/r/eclipse-ide-enterprise-java-and-web-developers
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-09/R/eclipse-jee-2025-09-R-win32-x86_64.zip
-	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-09/R/eclipse-jee-2025-09-R-linux-gtk-x86_64.tar.gz
+	https://www.eclipse.org/downloads/packages/release/2025-12/r/eclipse-ide-enterprise-java-and-web-developers
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-12/R/eclipse-jee-2025-12-R-win32-x86_64.zip
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-12/R/eclipse-jee-2025-12-R-linux-gtk-x86_64.tar.gz
 
 https://www.eclipse.org/babel/downloads.php
 https://download.eclipse.org/technology/babel/babel_language_packs/R0.20.0/2022-12/2022-12.php
@@ -81,7 +81,7 @@ Doxygen:
 Graphviz:
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/14.0.2/windows_10_cmake_Release_Graphviz-14.0.2-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/14.1.0/windows_10_cmake_Release_Graphviz-14.1.0-win64.zip
 
 
 WindowBuilder:
