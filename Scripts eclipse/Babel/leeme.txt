@@ -1,2 +1,9 @@
 Dejar en esta carpeta los archivos de traducciones deseados y borrar los antiguos.
 https://www.eclipse.org/babel/downloads.php
+
+Ciertas traducciones (Ej.: «refactorizar») se resisten a aparecer.
+	- Buscar en «Acerca de/Detalles Instalación/Software instalado» los referidos a Babel
+	- Apagar eclipse IDE
+	- Mover temporalmente esas carpetas a otro lugar
+	- Iniciar eclipse y verificar las traducciones que ya deben ser correctas
+	- Reponer las carpetas trasladadas
