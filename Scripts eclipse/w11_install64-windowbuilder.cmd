@@ -18,9 +18,8 @@ IF EXIST "%WBDEST%" (
 	FOR %%F IN ("%SRCDIR%WindowBuilder\WindowBuilder*.zip") DO (
 		ECHO Descomprimiendo %%~nxF…
 		MKDIR "%WBDEST%\%%~nF"
-		MKDIR "%WBDEST%\%%~nF\eclipse"
-		"%SRCDIR%\7za" x -bso0 -bd -o"%WBDEST%\%%~nF\eclipse" "%%~fF"
-		DEL /Q "%WBDEST%\%%~nF\eclipse\*.*"
+		"%SRCDIR%\7za" x -bso0 -bd -o"%WBDEST%\%%~nF" "%%~fF"
+		DEL /Q "%WBDEST%\%%~nF\*.*"
 		MOVE "%WBDEST%\%%~nF" "%WBDEST%\WindowBuilder"
 	)
 )

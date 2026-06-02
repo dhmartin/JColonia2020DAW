@@ -27,21 +27,19 @@ if [[ ! -f  "${ARCHIVO}" ]]; then
 	wget -c "${DESCARGABLE}"
 fi
 
+
 exec &> >(tee $ARCHIVO_LOG)
 
 # Descomprimir todo
-if [[ -d $NOMBRE ]]; then
-	rm -rf $NOMBRE
-fi
-
-mkdir $NOMBRE
-tar xf $ARCHIVO -C $NOMBRE \
+[[ -d $NOMBRE ]] && rm -rf $NOMBRE
+[[ -d eclipse ]] && rm -rf eclipse
+tar xf $ARCHIVO \
 	--warning=no-unknown-keyword > /dev/null
 
 
 # Dejar solo «features» y «plugins»
-find $NOMBRE \
-	-mindepth 2 -maxdepth 2 \
+find eclipse \
+	-mindepth 1 -maxdepth 1 \
 	-not \( -name features -or -name plugins \) \
 	-print0 |
 	xargs -0 rm -rf
@@ -50,23 +48,22 @@ find $NOMBRE \
 # Buscar archivos comunes con JDT
 # «eclipse for Java Developers» tiene que estar en /opt/eclipse
 N=0
-for file in $(find $NOMBRE -mindepth 3 -maxdepth 3); do
+for file in $(find eclipse -mindepth 2 -maxdepth 2); do
 	source=${file#*/}
-	target=/opt/$source
+	target=/opt/eclipse/$source
 
 	if [[ -e $target ]]; then
-		rm -rf $NOMBRE/$source
-		# echo Borrando $NOMBRE/$source
+		rm -rf eclipse/$source
+		# echo Borrando eclipse/$source
 		(( N++ ))
 	fi
 done
 echo "$N elementos comunes a JDT eliminados"
+mv eclipse $NOMBRE
 
 
 # Empaquetar y comprimir
 echo "Comprimiendo en «$DESTINO»…"
-if [[ -f $DESTINO ]]; then
-	rm -f $DESTINO
-fi
+[[ -f $DESTINO ]] && rm -f $DESTINO
 
 tar cjf $DESTINO $NOMBRE

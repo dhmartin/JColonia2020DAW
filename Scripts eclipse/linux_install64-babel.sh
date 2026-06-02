@@ -15,16 +15,15 @@ if [[ "$USUARIO" -eq 0 ]] ; then
 	# Comprobar si hay algún ZIP
 	for file in $(echo Babel/*.zip | grep -v [*]); do
 		DEST2="$(basename ${file} .zip)"
-		DEST1="${DEST}/eclipse/dropins/${DEST2}"
-		mkdir "$DEST1"
+		DEST1="${DEST}/eclipse/dropins"
 
 		echo "Descomprimiendo $file en $DEST1"
 		unzip_dest "$DEST1" "$file" > /dev/null
+		mv "${DEST1}/eclipse" "${DEST1}/${DEST2}"
 
-		chown -R root:root "$DEST1"
-		chmod -R go+r-w "$DEST1"
+		chown -R root:root "${DEST1}/${DEST2}"
+		chmod -R go+r-w "${DEST1}/${DEST2}"
 	done
-
 else
 	echo "$PROG: Probablemente no dispone de permisos suficientes"
 	exit 1
