@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-ECHO Instalación de ECLIPSE 2026-03
+ECHO Instalación de ECLIPSE 2026-06
 ECHO ==============================
 ECHO.
 
@@ -17,23 +17,23 @@ SET UNZIP_DEST="%SRCDIR%\7za" x -bso0 -bd -o
 IF NOT DEFINED PROGRAMDEST SET PROGRAMDEST=%ProgramFiles%
 
 ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
-%UNZIP_DEST%"%PROGRAMDEST%" "%SRCDIR%\eclipse-jee-2026-03-R-win32-x86_64.zip"
+%UNZIP_DEST%"%PROGRAMDEST%" "%SRCDIR%\eclipse-jee-2026-06-R-win32-x86_64.zip"
 ECHO.
 
 ECHO Descomprimiendo «openJDK21» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.10_7.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip"
 MOVE "%JAVADEST%\jdk-21*" "%JAVADEST%\jdk21"
 ECHO.
 
 ECHO Descomprimiendo «openJDK25» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK25U-jdk_x64_windows_hotspot_25.0.2_10.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip"
 MOVE "%JAVADEST%\jdk-25*" "%JAVADEST%\jdk25"
 ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
 MKDIR "%JAVADEST%\doxygen"
-%UNZIP_DEST%"%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.16.1.windows.x64.bin.zip"
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\windows_10_cmake_Release_Graphviz-14.1.3-win64.zip"
+%UNZIP_DEST%"%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.17.0.windows.x64.bin.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\windows_10_cmake_Release_Graphviz-15.0.0-win64.zip"
 
 MOVE "%JAVADEST%\Graphviz*" "%JAVADEST%\graphviz.0"
 MOVE "%JAVADEST%\graphviz.0\bin" "%JAVADEST%\graphviz"
