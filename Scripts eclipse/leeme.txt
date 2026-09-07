@@ -24,19 +24,16 @@ Para instalar o actualizar el editor de aplicaciones con ventanas
 w10_install64 - windowbuilder.cmd
 	(doble clic)
 
+
 Descargas:
 ==========
-OpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.zip
-	https://github.com/adoptium/temurin17-binaries/releases/latest/
-	https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.zip
-
-OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip
+OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip
 	https://github.com/adoptium/temurin21-binaries/releases/latest/
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip
+	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip
 
-OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip
+OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip
 	https://github.com/adoptium/temurin25-binaries/releases/latest/
-	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip
+	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip
 
 
 eclipse-java-2026-06-R-win32-x86_64.zip
@@ -75,13 +72,13 @@ Oracle Java:
 
 Doxygen:
 	https://www.doxygen.nl/download.html#srcbin
-	https://www.doxygen.nl/files/doxygen-1.17.0.windows.x64.bin.zip
-	https://sourceforge.net/projects/doxygen/files/rel-1.17.0/doxygen-1.17.0.windows.x64.bin.zip
+	https://www.doxygen.nl/files/doxygen-1.18.0.windows.x64.bin.zip
+	https://sourceforge.net/projects/doxygen/files/rel-1.18.0/doxygen-1.18.0.windows.x64.bin.zip
 
 Graphviz: 
 	https://graphviz.gitlab.io/download/
 	https://gitlab.com/graphviz/graphviz/-/releases
-	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/15.0.0/windows_10_cmake_Release_Graphviz-15.0.0-win64.zip
+	https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/16.1.0/windows_10_cmake_Release_Graphviz-16.1.0-win64.zip
 
 WindowBuilder:
 	https://www.eclipse.org/windowbuilder/downloads/
@@ -94,5 +91,4 @@ Git for Windows
 	https://git-scm.com/download/win
 	https://gitforwindows.org/
 	https://github.com/git-for-windows/git/releases
-	https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/MinGit-2.54.0-64-bit.zip
-
+	https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/MinGit-2.55.0.5-64-bit.zip

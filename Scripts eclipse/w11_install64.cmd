@@ -21,19 +21,19 @@ ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
 ECHO.
 
 ECHO Descomprimiendo «openJDK21» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip"
 MOVE "%JAVADEST%\jdk-21*" "%JAVADEST%\jdk21"
 ECHO.
 
 ECHO Descomprimiendo «openJDK25» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip"
 MOVE "%JAVADEST%\jdk-25*" "%JAVADEST%\jdk25"
 ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
 MKDIR "%JAVADEST%\doxygen"
-%UNZIP_DEST%"%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.17.0.windows.x64.bin.zip"
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\windows_10_cmake_Release_Graphviz-15.0.0-win64.zip"
+%UNZIP_DEST%"%JAVADEST%\doxygen" "%SRCDIR%\doxygen-1.18.0.windows.x64.bin.zip"
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\windows_10_cmake_Release_Graphviz-16.1.0-win64.zip"
 
 MOVE "%JAVADEST%\Graphviz*" "%JAVADEST%\graphviz.0"
 MOVE "%JAVADEST%\graphviz.0\bin" "%JAVADEST%\graphviz"
