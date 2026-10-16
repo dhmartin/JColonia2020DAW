@@ -1,7 +1,7 @@
 @CHCP 65001 > NUL
 @ECHO OFF
 
-SET PS1=JDK21
+SET PS1=JDK27
 SET PROMPT=$e[0;33m$c%PS1%$f$s$e[0;32m$p$g$e[m$s
 
 ECHO Entorno Java
@@ -11,7 +11,7 @@ ECHO.
 SET ruta=%~dp0
 SET ruta=%ruta:~0,-1%
 
-SET PATH=%ruta%\jdk21\bin;%PATH%
+SET PATH=%ruta%\jdk27\bin;%PATH%
 SET PATH=%ruta%\doxygen;%ruta%\graphviz;%PATH%
 SET PATH=%ProgramFiles%\varios;%PATH%
 

@@ -20,14 +20,14 @@ ECHO Descomprimiendo «eclipse» en %PROGRAMDEST%:
 %UNZIP_DEST%"%PROGRAMDEST%" "%SRCDIR%\eclipse-jee-2026-09-R-win32-x86_64.zip"
 ECHO.
 
-ECHO Descomprimiendo «openJDK21» en %JAVADEST%:
-%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip"
-MOVE "%JAVADEST%\jdk-21*" "%JAVADEST%\jdk21"
-ECHO.
-
 ECHO Descomprimiendo «openJDK25» en %JAVADEST%:
 %UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip"
 MOVE "%JAVADEST%\jdk-25*" "%JAVADEST%\jdk25"
+ECHO.
+
+ECHO Descomprimiendo «openJDK27» en %JAVADEST%:
+%UNZIP_DEST%"%JAVADEST%" "%SRCDIR%\OpenJDK27U-jdk_x64_windows_hotspot_27_35.zip"
+MOVE "%JAVADEST%\jdk-27*" "%JAVADEST%\jdk27"
 ECHO.
 
 ECHO Descomprimiendo «doxygen» y «graphviz» en %JAVADEST%:
@@ -43,14 +43,14 @@ ECHO.
 IF EXIST %ICONDEST% (
 	ECHO Copiando accesos directos a %ICONDEST%:
 	COPY /Y "%SRCDIR%\eclipse.lnk" "%ICONDEST%"
-	COPY /Y "%SRCDIR%\Entorno JDK21.lnk" "%ICONDEST%"
 	COPY /Y "%SRCDIR%\Entorno JDK25.lnk" "%ICONDEST%"
+	COPY /Y "%SRCDIR%\Entorno JDK27.lnk" "%ICONDEST%"
 	ECHO Copiando scripts y accesos directos a %JAVADEST%:
 	COPY /Y "%SRCDIR%\eclipse.lnk" "%JAVADEST%"
-	COPY /Y "%SRCDIR%\Entorno JDK21.lnk" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\Entorno JDK25.lnk" "%JAVADEST%"
-	COPY /Y "%SRCDIR%\ijava21W11.cmd" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\Entorno JDK27.lnk" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\ijava25W11.cmd" "%JAVADEST%"
+	COPY /Y "%SRCDIR%\ijava27W11.cmd" "%JAVADEST%"
 	COPY /Y "%SRCDIR%\ubicación.cmd" "%JAVADEST%"
 	ECHO.
 )

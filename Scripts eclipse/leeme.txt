@@ -5,35 +5,35 @@ Renombrar o incluso borrar:
 
 Instalar como usuario o como administrador (deja iconos es escritorio común)
 	Instalar como usuario, sin privilegios:
-	w10_install64-user.cmd
+	w11_install64-user.cmd
 		(doble clic)
 
 	Instalar como usuario, sin privilegios:
-	w10_install64.cmd
+	w11_install64.cmd
 		(clic botón derecho)
 		«Ejecutar como Administrador»
 
 
 Para instalar o actualizar las traducciones del proyecto «Babel»
 (dejar los archivos deseados en «dropins», en las subcarpetas «Babel*»)
-w10_install64 - babel.cmd
+w11_install64 - babel.cmd
 	(doble clic)
 
 Para instalar o actualizar el editor de aplicaciones con ventanas
 (dejar los archivos deseados en «dropins», en la subcarpeta «WindowBuilder»)
-w10_install64 - windowbuilder.cmd
+w11_install64 - windowbuilder.cmd
 	(doble clic)
 
 
 Descargas:
 ==========
-OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip
-	https://github.com/adoptium/temurin21-binaries/releases/latest/
-	https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip
-
 OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip
 	https://github.com/adoptium/temurin25-binaries/releases/latest/
 	https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip
+
+OpenJDK27U-jdk_x64_windows_hotspot_27_35.zip
+	https://github.com/adoptium/temurin27-binaries/releases/latest/
+	https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jdk_x64_windows_hotspot_27_35.zip
 
 
 eclipse-java-2026-09-R-win32-x86_64.zip
